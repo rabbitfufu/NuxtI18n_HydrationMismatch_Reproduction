@@ -1,0 +1,22 @@
+{
+  "name": "NuxtI18n-HydrationMismatch-Reproduction",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "analyze": "nuxt analyze",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "dependencies": {
+    "@nuxtjs/i18n": "^9.5.4",
+    "@unhead/vue": "^2.0.8",
+    "nuxt": "^3.17.3",
+    "prettier": "^3.5.3",
+    "unstorage": "^1.16.0",
+    "vue": "^3.5.14",
+    "vue-router": "^4.5.1"
+  }
+}
